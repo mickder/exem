@@ -1,0 +1,30 @@
+body {
+	font-size: small;
+	font-family: Verdana， Helvetica， Arial;
+  line-height: 1.6em;
+}
+
+h1, h2 {
+	color: #007e7e;
+}
+
+h1 {
+	font-size: 1.5em;
+}
+
+h2 {
+	font-size: 1.3em;
+}
+
+.guarantee {
+  padding: 1.9pm;
+	color: #444444;
+	border-color: white;
+  border-width: 1px;
+  border-style: dashed;
+  background-color: #a7cece;
+	font-family: "Georgia", "Times New Roman";
+	font-style: italic; 
+	padding: 25px;
+	margin: 30px;
+}
