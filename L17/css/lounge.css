@@ -33,3 +33,9 @@ h2 {
 	margin-right: 250px;
 	border-radius：15px;
 }
+.exlixirs {
+  border-width: thin;
+	border-style: solid;
+	border-color: #007e7e
+	width: 200px;
+	}

@@ -4,8 +4,8 @@ body {
   line-height: 1.6em;
 }
 
-h1, h2 {
-	color: #007e7e;
+h1,h2{ 
+  color: #007e7e;
 }
 
 h1 {
@@ -32,4 +32,25 @@ h2 {
 	background-position: top left;
 	margin-right: 250px;
 	border-radius：15px;
+}
+
+.exlixirs {
+  border-width: thin;
+	border-style: solid;
+	border-color: #007e7e;
+	width: 200px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	margin-left: 20px;
+	background-image: url(../images/cocktail.gif);
+	background-repeat: repeat-x;
+  text-align: center;
+	line-height: 1;
+	line-height: 1em;
+	}
+
+.exlixirs h2{ color: black;
+}
+.exlixirs h3{ color: #d12c47;
 }
