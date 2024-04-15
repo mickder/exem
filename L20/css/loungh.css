@@ -1,0 +1,14 @@
+p{
+  color:rgb(117, 236, 153);
+}
+h1, h2 {
+	font-weight: 600;
+  color:rgb(59, 22, 190);
+}
+h1 {
+	font-weight: 200;
+  }
+#footer {   
+	font-size: 5vw;
+  color:rgb(48, 167, 236); 
+}
