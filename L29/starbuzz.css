@@ -112,7 +112,7 @@ div.talbeRow {
 
 .top {
 	position:absolute;
-	top: 8px;
+	top: 28px;
 	left: 45%;
 }
 
@@ -150,9 +150,9 @@ nav ul {
 }
 
 section.main, section.blog {
-  display: table-cell;
-  background:       #efe5d0 url(images/background.gif) top left;
-  font-size:        105%;
-  padding:          15px;
-  vertical-align: top;
+    display: table-cell;
+    background: #efe5d0 url(images/background.gif) top left;
+    font-size: 105%;
+    padding: 15px;
+    vertical-align: top;
 }
