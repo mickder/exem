@@ -1,5 +1,5 @@
 body{
-    background-color: #322f2f;
+    background-color: #272626;
 }
 
 ul li {
@@ -81,25 +81,26 @@ h2 {
     color:#fafafa;
     font-size: 60px;
     margin-top: 0px;
-    margin-left: 130px;
+    margin-left: 100px;
     margin-bottom: 0px;
 }
 
 .pi {
-    margin-left: 130px;
+    margin-left: 100px;
+    position: absolute;
 }
 
 .pitwo {
     float: right;
-    margin-right: 170px;
-}
-
-    
+    margin-right: 80px;
+    margin-left: 770px;
+    position: absolute;
+}  
 
 .biaotitupian{
     position: absolute;
     margin-top: 10px;
-    margin-left: 15px;
+    margin-left: 0px;
 }
 
 b{
@@ -109,6 +110,29 @@ b{
 .lizhaoyang:hover{
     color:#ff0000;
 }
+
+.h4 {
+    position: absolute;
+    font-family: Verdana;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+    margin-left: 110px;  
+    margin-top: 280px;
+}
+
+.h5 {
+    position: absolute;
+    font-family: Verdana;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+    margin-right: 230px;
+    margin-left: 780px;
+    margin-top: 280px;
+    background-color: hsl(0deg 0% 0%/51% )
+}
+
 
 
 
