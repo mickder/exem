@@ -1,5 +1,6 @@
 body{
     background-color: #272626;
+    margin:0;padding:0;
 }
 
 ul li {
@@ -23,7 +24,7 @@ ul li.selected {
 }
 
 ul{
-    width: 1545px;
+    width: 1550px;
     height: 70px;
     line-height: 70px;
     margin-top: 0px;
@@ -46,13 +47,20 @@ a{
     display: none;/* 将某元素隐藏起来 */
     position: absolute;
     background-color: #030303;
-    min-width:200px;/* 最小宽度 */
+    height: 150px;
+    min-width: 235px;/* 最小宽度 */
+    backface-visibility: hidden;
+    z-index: 999;
+}
+
+.chy {
+    float:right;
+    display: flex;
 }
 
 .nav2 a {
     color: rgb(255, 255, 255);
-    padding: 10px 16px;
-    display: block;/* 将a标签设置为块级标签 */
+    /* display: block;将a标签设置为块级标签 */
 }
 
 .nav2 a:hover {
@@ -70,11 +78,6 @@ a{
 
 .nav1 a:hover{
     color: #ff0000;
-}
-
-.chy {
-    float:right;
-    display: flex;
 }
 
 h2 {
@@ -116,9 +119,11 @@ b{
     font-family: Verdana;
     font-size: 20px;
     color: rgb(255, 255, 255);
-    text-decoration: underline;
-    margin-left: 110px;  
-    margin-top: 280px;
+    text-decoration: none;
+    margin-left: 120px;  
+    margin-top: 256px;
+    padding: 25px 241px 25px 0px;
+    background-color: hsl(0deg 0% 0%/51% );
 }
 
 .h5 {
@@ -126,13 +131,39 @@ b{
     font-family: Verdana;
     font-size: 20px;
     color: rgb(255, 255, 255);
-    text-decoration: underline;
-    margin-right: 230px;
-    margin-left: 780px;
-    margin-top: 280px;
-    background-color: hsl(0deg 0% 0%/51% )
+    text-decoration: none;
+    margin-left: 790px;
+    margin-top: 256px;
+    padding: 25px 156px 22px 0px;
+    background-color: hsl(0deg 0% 0%/51% );
 }
 
+.chevron{
+    position: relative;
+    display: inline-block;
+    width: .4em;
+    height: .4em;
+    border-top: 1px solid currentColor;
+    border-right: 1px solid currentColor;
+    vertical-align: middle;
+    margin-top: -.14em;
+}
 
+.chevron {
+    margin-left: 2px;
+    margin-bottom: 1px;
+}
 
+.chevron--down {
+    transform: rotate(135deg);
+}
 
+span {
+	padding-bottom: 1px;
+	border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+.xiaodiqou{
+    display: block;
+}
+    
