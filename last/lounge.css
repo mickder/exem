@@ -47,7 +47,7 @@ a{
     display: none;/* 将某元素隐藏起来 */
     position: absolute;
     background-color: #030303;
-    height: 150px;
+    /* height: 150px; */
     min-width: 235px;/* 最小宽度 */
     backface-visibility: hidden;
     z-index: 999;
@@ -61,6 +61,8 @@ a{
 .nav2 a {
     color: rgb(255, 255, 255);
     /* display: block;将a标签设置为块级标签 */
+    display: block;
+    padding:0px;
 }
 
 .nav2 a:hover {
@@ -161,9 +163,5 @@ b{
 span {
 	padding-bottom: 1px;
 	border-bottom: 1px solid rgb(255, 255, 255);
-}
-
-.xiaodiqou{
-    display: block;
 }
     
